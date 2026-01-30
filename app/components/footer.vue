@@ -9,33 +9,33 @@
       <nav class="flex flex-wrap justify-center gap-6 mb-4 lg:mb-0" aria-label="footer-navigation">
         <h3 id="footer-navigation" class="sr-only">Navigation</h3>
         <NuxtLink
-          to="/#hero"
+          to="/"
           class="link link-hover hover:text-primary transition-colors duration-200"
-          >Home</NuxtLink
+          ></NuxtLink
         >
         <NuxtLink
-          to="/#about"
+          to="/"
           class="link link-hover hover:text-primary transition-colors duration-200"
-          >About</NuxtLink
+          ></NuxtLink
         >
         <NuxtLink
-          to="/#skills"
+          to="/"
           class="link link-hover hover:text-primary transition-colors duration-200"
-          >My Stack</NuxtLink
+          ></NuxtLink
         >
         <NuxtLink
-          to="/#projects"
+          to="/"
           class="link link-hover hover:text-primary transition-colors duration-200"
-          >Projects</NuxtLink
+          ></NuxtLink
         >
         <NuxtLink
-          to="/#contact"
+          to="/"
           class="link link-hover hover:text-primary transition-colors duration-200"
-          >Contact</NuxtLink
+          ></NuxtLink
         >
       </nav>
 
-      <p class="text-sm">© {{ currentYear }} Clément Lopes</p>
+      <p class="text-sm">© {{ currentYear }} name </p>
     </div>
   </footer>
 </template>

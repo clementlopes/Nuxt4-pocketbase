@@ -24,6 +24,7 @@ export const IconsErrorIcon: typeof import("../app/components/icons/errorIcon.vu
 export const IconsInfoIcon: typeof import("../app/components/icons/infoIcon.vue")['default']
 export const IconsSuccessIcon: typeof import("../app/components/icons/successIcon.vue")['default']
 export const IconsWarningIcon: typeof import("../app/components/icons/warningIcon.vue")['default']
+export const Page1: typeof import("../app/components/page1.vue")['default']
 export const Profile: typeof import("../app/components/profile.vue")['default']
 export const ScrollToTop: typeof import("../app/components/scrollToTop.vue")['default']
 export const Toast: typeof import("../app/components/toast/toast.vue")['default']
@@ -60,6 +61,7 @@ export const LazyIconsErrorIcon: LazyComponent<typeof import("../app/components/
 export const LazyIconsInfoIcon: LazyComponent<typeof import("../app/components/icons/infoIcon.vue")['default']>
 export const LazyIconsSuccessIcon: LazyComponent<typeof import("../app/components/icons/successIcon.vue")['default']>
 export const LazyIconsWarningIcon: LazyComponent<typeof import("../app/components/icons/warningIcon.vue")['default']>
+export const LazyPage1: LazyComponent<typeof import("../app/components/page1.vue")['default']>
 export const LazyProfile: LazyComponent<typeof import("../app/components/profile.vue")['default']>
 export const LazyScrollToTop: LazyComponent<typeof import("../app/components/scrollToTop.vue")['default']>
 export const LazyToast: LazyComponent<typeof import("../app/components/toast/toast.vue")['default']>

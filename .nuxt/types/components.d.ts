@@ -24,6 +24,7 @@ interface _GlobalComponents {
   'IconsInfoIcon': typeof import("../../app/components/icons/infoIcon.vue")['default']
   'IconsSuccessIcon': typeof import("../../app/components/icons/successIcon.vue")['default']
   'IconsWarningIcon': typeof import("../../app/components/icons/warningIcon.vue")['default']
+  'Page1': typeof import("../../app/components/page1.vue")['default']
   'Profile': typeof import("../../app/components/profile.vue")['default']
   'ScrollToTop': typeof import("../../app/components/scrollToTop.vue")['default']
   'Toast': typeof import("../../app/components/toast/toast.vue")['default']
@@ -60,6 +61,7 @@ interface _GlobalComponents {
   'LazyIconsInfoIcon': LazyComponent<typeof import("../../app/components/icons/infoIcon.vue")['default']>
   'LazyIconsSuccessIcon': LazyComponent<typeof import("../../app/components/icons/successIcon.vue")['default']>
   'LazyIconsWarningIcon': LazyComponent<typeof import("../../app/components/icons/warningIcon.vue")['default']>
+  'LazyPage1': LazyComponent<typeof import("../../app/components/page1.vue")['default']>
   'LazyProfile': LazyComponent<typeof import("../../app/components/profile.vue")['default']>
   'LazyScrollToTop': LazyComponent<typeof import("../../app/components/scrollToTop.vue")['default']>
   'LazyToast': LazyComponent<typeof import("../../app/components/toast/toast.vue")['default']>

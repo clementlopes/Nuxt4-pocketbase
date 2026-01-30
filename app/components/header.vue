@@ -10,42 +10,42 @@
         </div>
         <ul class="w-52 menu menu-md dropdown-content mt-3 p-2 bg-base-100 rounded-box shadow">
           <li>
-            <NuxtLink to="/#hero" class="text-lg">Home</NuxtLink>
+            <NuxtLink to="/" class="text-lg"></NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/#about" class="text-lg">About</NuxtLink>
+            <NuxtLink to="/" class="text-lg"></NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/#skills" class="text-lg">My Stack</NuxtLink>
+            <NuxtLink to="/" class="text-lg"></NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/#projects" class="text-lg">Projects</NuxtLink>
+            <NuxtLink to="/" class="text-lg"></NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/#contact" class="text-lg">Contact</NuxtLink>
+            <NuxtLink to="/" class="text-lg"></NuxtLink>
           </li>
         </ul>
       </div>
-      <NuxtLink to="/" class="font-bold text-xl hover:scale-105 transition duration-500">Clément Lopes</NuxtLink>
+      <NuxtLink to="/" class="font-bold text-xl hover:scale-105 transition duration-500">Name</NuxtLink>
     </div>
 
     <!-- desktop menu -->
     <div class="hidden lg:flex navbar-center">
       <ul class="px-1 menu menu-horizontal">
         <li>
-          <NuxtLink to="/#hero" class="text-lg">Home</NuxtLink>
+          <NuxtLink to="/" class="text-lg"></NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/#about" class="text-lg">About</NuxtLink>
+          <NuxtLink to="/" class="text-lg"></NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/#skills" class="text-lg">My Stack</NuxtLink>
+          <NuxtLink to="/" class="text-lg"></NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/#projects" class="text-lg">Projects</NuxtLink>
+          <NuxtLink to="/" class="text-lg"></NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/#contact" class="text-lg">Contact</NuxtLink>
+          <NuxtLink to="/" class="text-lg"></NuxtLink>
         </li>
       </ul>
     </div>
