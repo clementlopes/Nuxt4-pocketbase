@@ -25,10 +25,8 @@ export default defineNuxtConfig({
   // Runtime configuration - values available during runtime
   // These can be overridden by environment variables
   runtimeConfig: {
-    public: {
-      // PocketBase API URL - defaults to production URL if not set in environment
-      pocketbaseUrl: process.env.POCKETBASE_URL || 'https://api.clementlopes.site',
-    },
+    // PocketBase API URL - can be overridden by environment variables
+    pocketbaseUrl: process.env.POCKETBASE_URL || 'https://api.clementlopes.site',
   },
 
   // Application-level configuration

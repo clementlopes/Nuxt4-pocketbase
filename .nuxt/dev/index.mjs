@@ -647,9 +647,8 @@ const _inlineRuntimeConfig = {
       }
     }
   },
-  "public": {
-    "pocketbaseUrl": "https://api.clementlopes.site"
-  }
+  "public": {},
+  "pocketbaseUrl": "https://api.clementlopes.site"
 };
 const envOptions = {
   prefix: "NITRO_",
